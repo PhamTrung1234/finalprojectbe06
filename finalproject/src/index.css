@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #f4f0eb;
+}
+.box-modal-product{
+    position: absolute;
+    top: 200%;
+    left: 0;
+    z-index: 10;
+}
+.active,.heder__navlink:hover{
+    color: black;
+    text-decoration: underline !important;
+}
